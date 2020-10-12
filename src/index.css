@@ -1,13 +1,58 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "RobotoLight";
+  src: url("./fonts/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: "GreatVibesRegular";
+  src: url("./fonts/GreatVibes-Regular.ttf");
+}
+@font-face {
+  font-family: "Staatliches";
+  src: url("./fonts/Staatliches-Regular.ttf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "PrincessSofiaRegular";
+  src: url("./fonts/PrincessSofia-Regular.ttf");
+}
+
+:root {
+  --color-tomato: rgb(232, 84, 84);
+  --color-pink: rgb(241,167,167);
+  /* --color-purple: rgb(162,128,162); */
+  --color-purple: rgb(176,119,146)
+}
+
+.flower-image  img{
+  max-height: 330px;
+}
+
+.on-botton {
+  position: absolute;
+
+  z-index: 1;
+
+  bottom: 0;
+  right: 0;
+
+  transform: rotate(0deg);
+}
+
+.absolute {
+  position: absolute;
+}
+
+.evident {
+  z-index: 1;
+}
+
+.fluid {
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.not-evident {
+  z-index: 0;
 }

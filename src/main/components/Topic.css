@@ -1,0 +1,21 @@
+:root {
+    --default-border-radius: 18px;
+    --default-distance-unit: 18px;
+}
+
+.topic {
+    position: relative;
+
+    width: auto;
+    height: auto;
+
+    margin-top: 18px;
+
+    padding: var(--default-border-radius);
+
+    border-radius: var(--default-border-radius);
+
+    overflow: hidden;
+
+    /* background-color: aliceblue; */
+}
