@@ -1,0 +1,158 @@
+.content {
+    position: relative;
+
+    width: auto;
+    height: auto;
+
+    /* margin: var(--default-border-radius) 0px 0px 0px; */
+
+    display: flex;
+    flex-flow: row wrap;
+
+    /* background-color: violet; */
+}
+
+.name-outside {
+    position: relative;
+
+    width: 100%;
+
+    height: auto;
+    min-height: 150px;
+
+    margin: var(--default-border-radius);
+
+    display: flex;
+    flex-flow: row nowrap;
+
+    align-items: baseline;
+    align-content: center;
+
+    /* background-color: aquamarine; */
+}
+
+.name-outside h2 {
+    font-family: "GreatVibesRegular";
+    font-size: 3rem;
+}
+
+.name-outside img {
+    position: absolute;
+    height: 24vmin;
+
+    left: 0;
+    bottom: 0;
+
+    transform: rotate(90deg);
+}
+
+.name-inside {
+    min-height: 10vmin;
+    margin: auto;
+
+    display: flex;
+    flex-flow: row wrap;
+
+    align-items: center;
+
+    text-align: center;
+
+    flex-grow: 0;
+
+    /* background-color: yellow; */
+}
+
+.person-content {
+    position: relative;
+
+    /* padding: var(--default-border-radius); */
+
+    width: 100%;
+
+    height: auto;
+    /* min-height: 450px; */
+
+    display: flex;
+    flex-flow: row-reverse wrap;
+
+    align-items: flex-start;
+    align-content: space-around;
+
+    /* background-color: antiquewhite; */
+}
+
+.person-about {
+    width: auto;
+    max-width: 450px;
+
+    height: auto;
+
+    margin: auto;
+
+    border-radius: var(--default-border-radius);
+
+    /* display: flex; */
+    /* flex-flow: column wrap; */
+
+    /* align-items: center; */
+    /* align-content: center; */
+
+    background-color: var(--color-pink);
+}
+
+.person-about p {
+    width: auto;
+    height: auto;
+
+    font-family: "RobotoLight";
+
+    font-size: 1.5rem;
+    text-align: center;
+
+    /* background-color: brown; */
+}
+
+.person-image {
+    position: relative;
+
+    width: 60vmin;
+    height: 60vmin;
+
+    margin: var(--default-border-radius);
+
+    /* background-color: tomato; */
+}
+
+.purple-person-item {
+    position: absolute;
+
+    top: 0;
+    right: 0;
+
+    width: 60vmin;
+    height: 60vmin;
+    border-radius: 50%;
+
+    align-self: flex-end;
+
+    display: flex;
+    align-items: center;
+
+    /* overflow: hidden; */
+
+    background-color: var(--color-purple);
+}
+
+.image {
+    width: 57vmin;
+    height: 57vmin;
+
+    margin: auto;
+
+    border-radius: 50%;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 50%;
+}

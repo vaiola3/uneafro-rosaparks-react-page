@@ -17,7 +17,7 @@ export default props => (
         </div>
 
         <div className="uneafro-image evident">
-            <img src={imageUneafro01} alt="Image UNEafro"/>
+            <img src={imageUneafro01} alt="UNEafro Logo"/>
         </div>
 
         <div className="about-description evident">
@@ -28,10 +28,10 @@ export default props => (
 
         <div className="rosaparks-images evident">
             <div className="rosaparks-image">
-                <img src={imageRosaParks02} alt="Image Rosa Parks"/>
+                <img src={imageRosaParks02} alt="Rosa Parks"/>
             </div>
             <div className="rosaparks-image">
-                <img src={imageRosaParks03} alt="Image Rosa Parks"/>
+                <img src={imageRosaParks03} alt="Rosa Parks"/>
             </div>
         </div>
 
@@ -41,7 +41,7 @@ export default props => (
         </div>
 
         <div className="flower-image on-botton not-evident">
-            <img src={imageFlower04} alt="Image flower"/>
+            <img src={imageFlower04} alt="Flower"/>
         </div>
     </div>
 )

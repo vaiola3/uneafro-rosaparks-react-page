@@ -5,6 +5,7 @@ import Topic from "./components/Topic"
 import Header from "./components/pages/Header"
 import About from "./components/pages/About"
 import Teacher from "./components/pages/Teacher"
+import SocialMedias from "./components/pages/SocialMedias"
 
 import texts from "../content/descriptions"
 
@@ -23,12 +24,13 @@ export default class extends Component {
                         descriptionNucleo={texts.about.nucleo.description}
                         />
                 </Topic>
-                <Topic name="RosaParks">
+                <Topic name="Teacher">
                     <Teacher/>
                 </Topic>
-                <Topic name="Teacher"></Topic>
                 <Topic name="Studyes"></Topic>
-                <Topic name="SocialMedias"></Topic>
+                <Topic name="SocialMedias">
+                    <SocialMedias/>
+                </Topic>
             </div>
         )
     }

@@ -9,7 +9,7 @@
     width: auto;
     height: auto;
 
-    margin-top: 18px;
+    margin-top: var(--default-border-radius);
 
     padding: var(--default-border-radius);
 

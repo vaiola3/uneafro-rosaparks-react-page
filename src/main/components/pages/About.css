@@ -1,13 +1,13 @@
-h1 {
+.about-content h1 {
     font-family: "PrincessSofiaRegular";
     font-size: 5em;
 }
 
 p {
     font-family: "RobotoLight";
-    font-size: 1.5em;
+    font-size: 1.2em;
 
-    margin: 30px;
+    margin: var(--default-border-radius);
 
     text-align: justify;
 }
@@ -57,9 +57,13 @@ p {
     transform: translateX(-300px);
 }
 
+.about-description {
+    margin-top: var(--default-border-radius);
+    /* background-color: teal; */
+}
+
 .about-content {
     margin-top: var(--default-border-radius);
-    margin-bottom: var(--default-border-radius);
 }
 
 .about-content p {
@@ -72,7 +76,7 @@ p {
 
     align-items: center;
 
-    border-radius: 27px;
+    border-radius: var(--default-border-radius);
     overflow: hidden;
 
     margin: auto;
@@ -102,7 +106,7 @@ p {
     max-width: 300px;
     max-height: 300px;
 
-    margin: 12px;
+    margin: var(--default-border-radius);
 
     border-radius: 40%;
 

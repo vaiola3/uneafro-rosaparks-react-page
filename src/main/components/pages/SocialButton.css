@@ -1,0 +1,15 @@
+.social-button {
+    margin: auto;
+
+    border-radius: 50%;
+
+    overflow: hidden;
+
+}
+
+.social-button img {
+    width: auto;
+    max-width: 270px;
+
+    cursor: pointer;
+}

@@ -1,0 +1,7 @@
+.social-medias-container {
+    height: auto;
+    min-width: 100vh;
+
+    display: flex;
+    flex-flow: row wrap;
+}

@@ -1,0 +1,9 @@
+.teacher-container {
+    /* overflow: hidden; */
+    /* background-color: blue; */
+}
+
+.teacher-container h1 {
+    font-family: "Staatliches";
+    font-size: 3.5em;
+}
